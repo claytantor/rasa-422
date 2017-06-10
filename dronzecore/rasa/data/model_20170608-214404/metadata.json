@@ -1,0 +1,17 @@
+{
+    "entity_synonyms": null, 
+    "pipeline": [
+        "nlp_spacy", 
+        "ner_crf", 
+        "ner_synonyms", 
+        "intent_featurizer_spacy", 
+        "intent_classifier_sklearn"
+    ], 
+    "entity_extractor_crf": "ner", 
+    "training_data": "training_data.json", 
+    "spacy_model_name": "en", 
+    "language": "en", 
+    "trained_at": "20170608-214404", 
+    "intent_classifier_sklearn": "intent_classifier.pkl", 
+    "rasa_nlu_version": "0.8.11"
+}

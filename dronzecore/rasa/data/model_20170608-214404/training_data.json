@@ -1,0 +1,358 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [], 
+    "entity_examples": [
+      {
+        "text": "aws s3 cp", 
+        "intent": "command_awscli_s3", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "cp", 
+            "entity": "command"
+          }
+        ]
+      }, 
+      {
+        "text": "aws s3 ls", 
+        "intent": "command_awscli_s3", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "ls", 
+            "entity": "command"
+          }
+        ]
+      }, 
+      {
+        "text": "aws s3 ls callpug.9ebf", 
+        "intent": "command_awscli_s3", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 22, 
+            "value": "ls callpug.9ebf", 
+            "entity": "command"
+          }
+        ]
+      }, 
+      {
+        "text": "aws s3 ls callpug.com", 
+        "intent": "command_awscli_s3", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 21, 
+            "value": "ls callpug.com", 
+            "entity": "command"
+          }
+        ]
+      }, 
+      {
+        "text": "aws s3 ls callpug.failover.be5d", 
+        "intent": "command_awscli_s3", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 31, 
+            "value": "ls callpug.failover.be5d", 
+            "entity": "command"
+          }
+        ]
+      }, 
+      {
+        "text": "aws s3 ls callsquid.com", 
+        "intent": "command_awscli_s3", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 23, 
+            "value": "ls callsquid.com", 
+            "entity": "command"
+          }
+        ]
+      }, 
+      {
+        "text": "aws s3 ls cf-templates-1a1w6kwnn3j0m-us-east-1", 
+        "intent": "command_awscli_s3", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 46, 
+            "value": "ls cf-templates-1a1w6kwnn3j0m-us-east-1", 
+            "entity": "command"
+          }
+        ]
+      }, 
+      {
+        "text": "aws s3 ls cf-templates-1a1w6kwnn3j0m-us-west-2", 
+        "intent": "command_awscli_s3", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 46, 
+            "value": "ls cf-templates-1a1w6kwnn3j0m-us-west-2", 
+            "entity": "command"
+          }
+        ]
+      }, 
+      {
+        "text": "aws s3 ls claytantor.20f1ba64", 
+        "intent": "command_awscli_s3", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 29, 
+            "value": "ls claytantor.20f1ba64", 
+            "entity": "command"
+          }
+        ]
+      }, 
+      {
+        "text": "aws s3 ls claytantor.com", 
+        "intent": "command_awscli_s3", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 24, 
+            "value": "ls claytantor.com", 
+            "entity": "command"
+          }
+        ]
+      }, 
+      {
+        "text": "aws s3 ls codepipeline-us-west-2-251329657388", 
+        "intent": "command_awscli_s3", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 45, 
+            "value": "ls codepipeline-us-west-2-251329657388", 
+            "entity": "command"
+          }
+        ]
+      }, 
+      {
+        "text": "aws s3 ls dev.lexfan.0b75", 
+        "intent": "command_awscli_s3", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 25, 
+            "value": "ls dev.lexfan.0b75", 
+            "entity": "command"
+          }
+        ]
+      }, 
+      {
+        "text": "aws s3 mb", 
+        "intent": "command_awscli_s3", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "mb", 
+            "entity": "command"
+          }
+        ]
+      }, 
+      {
+        "text": "aws s3 mv", 
+        "intent": "command_awscli_s3", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "mv", 
+            "entity": "command"
+          }
+        ]
+      }, 
+      {
+        "text": "aws s3 presign", 
+        "intent": "command_awscli_s3", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 14, 
+            "value": "presign", 
+            "entity": "command"
+          }
+        ]
+      }, 
+      {
+        "text": "aws s3 rb", 
+        "intent": "command_awscli_s3", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "rb", 
+            "entity": "command"
+          }
+        ]
+      }, 
+      {
+        "text": "aws s3 rm", 
+        "intent": "command_awscli_s3", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "rm", 
+            "entity": "command"
+          }
+        ]
+      }, 
+      {
+        "text": "aws s3 sync", 
+        "intent": "command_awscli_s3", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 11, 
+            "value": "sync", 
+            "entity": "command"
+          }
+        ]
+      }, 
+      {
+        "text": "aws s3 website", 
+        "intent": "command_awscli_s3", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 14, 
+            "value": "website", 
+            "entity": "command"
+          }
+        ]
+      }, 
+      {
+        "text": "tell me about yourself", 
+        "intent": "conversation_dronzebot_about", 
+        "entities": []
+      }, 
+      {
+        "text": "who are you", 
+        "intent": "conversation_dronzebot_about", 
+        "entities": []
+      }, 
+      {
+        "text": "what are you", 
+        "intent": "conversation_dronzebot_about", 
+        "entities": []
+      }, 
+      {
+        "text": "what is your story", 
+        "intent": "conversation_dronzebot_about", 
+        "entities": []
+      }, 
+      {
+        "text": "why were you made", 
+        "intent": "conversation_dronzebot_about", 
+        "entities": []
+      }
+    ], 
+    "intent_examples": [
+      {
+        "text": "aws s3 cp", 
+        "intent": "command_awscli_s3"
+      }, 
+      {
+        "text": "aws s3 ls", 
+        "intent": "command_awscli_s3"
+      }, 
+      {
+        "text": "aws s3 ls callpug.9ebf", 
+        "intent": "command_awscli_s3"
+      }, 
+      {
+        "text": "aws s3 ls callpug.com", 
+        "intent": "command_awscli_s3"
+      }, 
+      {
+        "text": "aws s3 ls callpug.failover.be5d", 
+        "intent": "command_awscli_s3"
+      }, 
+      {
+        "text": "aws s3 ls callsquid.com", 
+        "intent": "command_awscli_s3"
+      }, 
+      {
+        "text": "aws s3 ls cf-templates-1a1w6kwnn3j0m-us-east-1", 
+        "intent": "command_awscli_s3"
+      }, 
+      {
+        "text": "aws s3 ls cf-templates-1a1w6kwnn3j0m-us-west-2", 
+        "intent": "command_awscli_s3"
+      }, 
+      {
+        "text": "aws s3 ls claytantor.20f1ba64", 
+        "intent": "command_awscli_s3"
+      }, 
+      {
+        "text": "aws s3 ls claytantor.com", 
+        "intent": "command_awscli_s3"
+      }, 
+      {
+        "text": "aws s3 ls codepipeline-us-west-2-251329657388", 
+        "intent": "command_awscli_s3"
+      }, 
+      {
+        "text": "aws s3 ls dev.lexfan.0b75", 
+        "intent": "command_awscli_s3"
+      }, 
+      {
+        "text": "aws s3 mb", 
+        "intent": "command_awscli_s3"
+      }, 
+      {
+        "text": "aws s3 mv", 
+        "intent": "command_awscli_s3"
+      }, 
+      {
+        "text": "aws s3 presign", 
+        "intent": "command_awscli_s3"
+      }, 
+      {
+        "text": "aws s3 rb", 
+        "intent": "command_awscli_s3"
+      }, 
+      {
+        "text": "aws s3 rm", 
+        "intent": "command_awscli_s3"
+      }, 
+      {
+        "text": "aws s3 sync", 
+        "intent": "command_awscli_s3"
+      }, 
+      {
+        "text": "aws s3 website", 
+        "intent": "command_awscli_s3"
+      }, 
+      {
+        "text": "tell me about yourself", 
+        "intent": "conversation_dronzebot_about"
+      }, 
+      {
+        "text": "who are you", 
+        "intent": "conversation_dronzebot_about"
+      }, 
+      {
+        "text": "what are you", 
+        "intent": "conversation_dronzebot_about"
+      }, 
+      {
+        "text": "what is your story", 
+        "intent": "conversation_dronzebot_about"
+      }, 
+      {
+        "text": "why were you made", 
+        "intent": "conversation_dronzebot_about"
+      }
+    ]
+  }
+}

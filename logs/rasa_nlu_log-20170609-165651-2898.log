@@ -1,0 +1,1 @@
+{"entities": [{"end": 9, "entity": "command", "extractor": "ner_crf", "start": 7, "value": "ls"}], "intent": {"confidence": 0.70301507838113098, "name": "command_awscli_s3"}, "intent_ranking": [{"confidence": 0.70301507838113098, "name": "command_awscli_s3"}, {"confidence": 0.29698492161886869, "name": "conversation_dronzebot_about"}], "text": "aws s3 ls"}

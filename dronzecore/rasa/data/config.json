@@ -1,0 +1,7 @@
+{
+  "pipeline": "spacy_sklearn",
+  "path" : "./dronzecore/rasa/data",
+  "port": 5010,
+  "data" : "./dronzecore/rasa/data/dronze-rasa-gen2.json",
+  "server_model_dirs": "model_20170608-214404"
+}
