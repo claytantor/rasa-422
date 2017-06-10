@@ -55,7 +55,8 @@ curl -X POST \
 # running the embedded client
 
 ```bash
-python embedded.py --modeldir ./dronzecore/rasa/data/model_20170608-214404 --config ./dronzecore/rasa/data/config.json --text "aws ls s3"
+python embedded.py --modeldir ./dronzecore/rasa/data/model_20170608-214404 \
+   --config ./dronzecore/rasa/data/config.json --text "aws ls s3"
 ```
 produces the response:
 
